@@ -201,17 +201,6 @@ body {
     background-color: var(--ada-mint-blue);
 }
 
-.ada-link {
-    width: 20px;
-    height: 20px;
-    margin-left: 5px;
-    margin-top: 3px;
-}
-
-.ada-link-wrapper {
-    width: 30px;
-}
-
 .center {
     margin: auto;
     width: fit-content
@@ -280,16 +269,6 @@ body {
     padding-top: 3px;
 }
 
-
-.ada-footer {
-    height: 30px;
-    background-color: var(--ada-medium-blue);
-    position: fixed;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-}
-
 .ada-header-menu {
     margin-left: 20px;
     margin-top: 5px;
@@ -310,4 +289,26 @@ body {
 .ada-footer-email {
     margin-top: 2px;
     margin-right: 10px;
+}
+
+.ada-footer-wrapper {
+    width: 40px;
+    float: left;
+}
+
+.ada-footer {
+    height: 50px;
+    width: 100%;
+}
+
+.ada-footer-img {
+    width: 30px;
+    height: 30px;
+    margin-left: 5px;
+    margin-top: 3px;
+}
+
+.first-footer {
+    margin-left: 270px;
+
 }
